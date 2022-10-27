@@ -1,0 +1,28 @@
+frase = '   Curso em Video Python   '
+print(frase[3])
+print(frase[3:13])
+print(frase[:14])
+print(frase[5:])
+print(frase[0::2])
+print(frase.count('o'))
+print(frase.upper().count('O'))
+print(len(frase.strip()))
+print(frase.replace('Python','Android'))
+print(frase)
+frase = frase.replace('Python' , 'Android')
+print(frase)
+print("""Southern trees bear a strange fruit
+Blood on the leaves and blood at the root
+Black bodies swinging in the southern breeze
+Strange fruit hanging from the poplar trees""")
+print('Curso' in frase)
+print(frase.find('Curso'))
+print(frase.find('curso'))
+print(frase.lower().find('curso'))
+print(frase)
+frase = frase.replace('Android' , 'Python')
+print(frase)
+print(frase.split())
+dividido = (frase.split())
+print(dividido[0])
+print(dividido[3][0])

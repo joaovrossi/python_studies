@@ -1,0 +1,12 @@
+name=input('Lady Darkmoore:I thought you would be dead by now. What was your name again?')
+print('Lady Darkmoore:Ah, yes. I remember now...',name,'is such a commoner name, is it not?')
+day=input('Lady Darkmoore:I take it you arrived here only recently since the bridges collapsed. When did you arrive?')
+print('Lady Darkmoore:Well...',day,'is better than never I guess.')
+month=input('Lady Darkmoore:Considering the covet mission you were sent off to I imagine at this point you know when will the next attack happen...')
+print('Lady Darkmoore:',month,'is way sooner than I expected. These are indeed worthy foes!')
+hour=input('Lady Darkmoore:How long until you can get all the chevaliers here?')
+print('Lady Darkmoore:',hour,'it is then. As soon as they arrived we should begin planning...')
+north_gate_horde=int(input('Lady Darkmoore:How many hordes do we have to the north gate?'))
+south_gate_horde=int(input('Lady Darkmoore:Tell me we have fewer to the south...'))
+total_hordes=north_gate_horde+south_gate_horde
+print('Lady Darkmoore:so all in all we have',total_hordes,'hordes to send straight to hell... Could be worse.' )

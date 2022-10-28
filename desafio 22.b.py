@@ -1,8 +1,0 @@
-nome = input('Informe seu nome completo:').strip()
-print('Analisando nome:')
-print(f'Seu nome em maiusculo é {nome.upper()}')
-print(f'Seu nome em minusculo é {nome.lower()}')
-vazio=nome.count(' ')
-print(f'Seu nome tem {len(nome) - vazio} letras')
-dividido = (nome.split())
-print(f'Seu primeiro nome, {dividido[0]}, tem {len(dividido[0])} letras.')

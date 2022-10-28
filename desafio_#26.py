@@ -1,0 +1,6 @@
+frase =input('Write a sentence that defines your mood today:').strip().lower()
+print('Parsing sentence:')
+frase2 = frase.replace('á', 'a').replace('ã','a').replace('â','a').replace('à','a')
+print(f"The letter A appears {frase2.count('a')} times in your sentence.")
+print(f"The first time the letter A appeared it was in the {frase2.find('a')+1}° position.")
+print(f"The last time the letter A appeared it was in the {frase2.rfind('a')+1}° position")

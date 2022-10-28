@@ -1,7 +1,0 @@
-nome = (input('Escreva seu nome completo:')).strip()
-print({nome.upper()})
-print({nome.lower()})
-print((len(nome) - nome.count(' ')))
-#print(nome.find(' '))
-dividido = (nome.split())
-print(f'{dividido[1]} {len(dividido[1])}')

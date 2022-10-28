@@ -1,6 +1,0 @@
-frase =input('Escreva uma frase que te define seu humor hoje:').strip().lower()
-print('Analisando frase:')
-frase2 = frase.replace('á', 'a').replace('ã','a').replace('â','a').replace('à','a')
-print(f"A letra A aparece {frase2.count('a')} vezes na sua frase.")
-print(f"A primeira vez que a letra A apareceu ela estava na posição {frase2.find('a')+1}")
-print(f"A ultima vez que a letra A apareceu ela estava na posição {frase2.rfind('a')+1}")

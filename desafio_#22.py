@@ -1,0 +1,8 @@
+nome = input('Enter your full name:').strip()
+print('Parsing name:')
+print(f'Your name in capital letters is{nome.upper()}')
+print(f'Your lowercase name is {nome.lower()}')
+vazio=nome.count(' ')
+print(f'Your name has{len(nome) - vazio} letters')
+dividido = (nome.split())
+print(f'Your first name, {dividido[0]}, has {len(dividido[0])} letters.')
